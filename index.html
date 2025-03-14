@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om oss - Dosti Bilverkstad</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .about {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #252525;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+        }
+
+        .about p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+        }
+
+        nav a {
+            color: #f0f0f0;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .about img {
+            width: 380px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .reviews {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #343a40;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+            color: #f8f9fa;
+        }
+
+        .reviews h2 {
+            color: #ffcc00;
+        }
+
+        .reviews p {
+            font-style: italic;
+            color: #e0e0e0;
+        }
+
+        .back-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-link a {
+            color: #f0f0f0;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #111;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Om Dosti Bilverkstad</h1>
+    </header>
+
+    <!-- Navigering -->
+    <nav>
+        <a href="index.html">Hem</a>
+        <a href="bokning.html">Boka tid</a>
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+
+    <!-- Om oss Sektion -->
+    <section class="about">
+        <h2>Välkommen till Dosti Bilverkstad</h2>
+        <p>Dosti Bilverkstad har lång erfarenhet av bilreparationer och service. Vårt team består av engagerade
+            mekaniker som arbetar med passion och precision.</p>
+
+        <p>Vi erbjuder pålitliga och effektiva bilreparationer med kundens behov i fokus. Med modern utrustning och
+            expertkunskap kan vi hantera allt från enklare service till mer avancerade reparationer.</p>
+
+        <p>Oavsett om det gäller ett oljebyte eller en större motorreparation, kan du räkna med oss. Vi ser till att din
+            bil är i tryggt skick så att du kan köra säkert.</p>
+
+        <p>Vi strävar efter att ge snabb och pålitlig service med hög kvalitet. Vårt mål är att du som kund alltid ska
+            känna dig nöjd och trygg när du lämnar din bil hos oss.</p>
+
+        <img src="images/bilverkstad.jpg" alt="Dosti Bilverkstad">
+
+        <h3>Kontakta oss</h3>
+        <h3>Öppettider</h3>
+        <p>Vardag: 07:00 - 19:00</p>
+        <p>Helg: 08:00 - 17:00</p>
+
+        <p>Adress: Capellavägen 4, 175 60 Järfälla</p>
+        <p>Telefon: <a href="tel:0760524755">0760524755</a></p>
+        <p>E-post: <a href="mailto:arman_mike@hotmail.com">arman_mike@hotmail.com</a></p>
+    </section>
+
+    <!-- Kundrecensioner -->
+    <section class="map">
+        <h3>Hitta till oss</h3>
+        <iframe width="100%" height="300" frameborder="0" style="border:0; margin-top: 20px; border-radius: 10px;"
+            allowfullscreen
+            src="https://www.google.com/maps/embed/v1/place?q=Dosti+Bilverkstad,Capellavägen+4,Järfälla&key=DIN_GOOGLE_MAPS_API_KEY">
+        </iframe>
+    </section>
+
+    <section class="reviews">
+        <h2>Vad våra kunder säger</h2>
+        <p>"Fantastisk service! Min bil blev som ny efter reparationen." – Anna L.</p>
+        <p>"Snabbt och professionellt arbete. Rekommenderas!" – Johan S.</p>
+    </section>
+
+    <!-- Tillbaka-knapp -->
+    <div class="back-link">
+        <a href="index.html">Tillbaka till startsidan</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Dosti Bilverkstad. Alla rättigheter förbehållna.</p>
+    </footer>
+</body>
+
+</html>
